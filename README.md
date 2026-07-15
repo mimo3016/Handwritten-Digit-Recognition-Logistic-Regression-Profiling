@@ -42,7 +42,7 @@ Bash
 pip install numpy pandas scikit-learn opencv-python matplotlib jupyter
 
 Running the Pipeline(Optional) 
-Re-process Raw Scans:To run the computer vision extraction script over the raw grids:
+Re-process Raw Scans: To run the computer vision extraction script over the raw grids:
 Bash
 python process_sheets.py --input raw_sheets --out dataset --debug
 
