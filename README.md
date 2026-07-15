@@ -38,6 +38,18 @@ How to Setup & Run
 Prerequisites
 Make sure you have Python 3.8+ and the necessary libraries installed:
 
+## 📦 Dataset Availability
+
+Due to GitHub's file size limitations, the raw image datasets are not hosted directly in this repository. 
+
+* **Download the Dataset:** [Click here to download the processed 1,200 digit images (ZIP)](#) <!-- https://drive.google.com/drive/folders/1vFswIG4-rnj1fy-mjonsvMMkOLIrZB3A?usp=drive_link -->
+* **Download Raw Sheets:** [Click here to download the 6 original A4 scanned grid sheets (ZIP)](#) <!-- https://drive.google.com/drive/folders/1vFswIG4-rnj1fy-mjonsvMMkOLIrZB3A?usp=drive_link -->
+
+Once downloaded, extract the folders into the root directory of this project to run the pipeline:
+```text
+├── dataset/         <-- Extract processed images here
+├── raw_sheets/      <-- Extract raw scans here
+
 Bash
 pip install numpy pandas scikit-learn opencv-python matplotlib jupyter
 
